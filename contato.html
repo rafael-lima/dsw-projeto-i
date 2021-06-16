@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <title>Home</title>
+</head>
+<body>
+    <header class="container">
+        <h1 class="logo"><a href="./index.html">E-<span class="theme">learning</span></a></h1>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li>
+                    <a href="" class="theme">Cadastrar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <h2>Contato</h2>
+
+        <div class="mural">
+            <form class="form" action="#">
+                <label for="name">Nome: 
+                    <input type="text" name="name" id="name">
+                </label>
+
+                <label for="name">Assunto: 
+                    <input type="text" name="name" id="name">
+                </label>
+
+                <label for="message">Mensagem:
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </label>
+
+                <button class="theme">Enviar</button>
+            </form>
+
+            <div class="clear"></div>
+
+            <ul class="data">
+                <li>Celular: <a href="tel:+5588999999999">(88) 99999-9999</a></li>
+                <li>E-mail: <a href="mailto:e-learning@gmail.com">e-learning@gmail.com</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="modal-bg">
+        <div class="modal">
+            <span class="modal-close">X</span>
+            <p>- Disciplina: Desenvolvimento de Software para Web;</p>
+            <p>- Aluno: Rafael Lima Soares de Sousa.</p>
+        </div>
+    </div>
+
+    <footer class="container">
+        <p>Copyright @ 2021 E-learning. Todos os direitos reservados.</p>
+        <button id="creditos" class="theme">Créditos</button>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
